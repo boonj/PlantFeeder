@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
+import Plant from './Plant';
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
           className="bla clasje"
           margin="normal"
         />
+        <Plant/>
+        <Plant/>
+        <Plant/>
       </div>
     );
   }
