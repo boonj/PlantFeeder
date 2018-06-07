@@ -14,7 +14,7 @@ class App extends Component {
           className="bla clasje"
           margin="normal"
         />
-        <Plant/>
+        <Plant TimeLeft={600}/>
         <Plant/>
         <Plant/>
       </div>
