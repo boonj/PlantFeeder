@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -18,13 +17,11 @@ export default class Plant extends Component {
   render() {
     return (
       <div>
-        <img src="D:\Projecten\PlantFeeder\website\src\aardbeien.jpg"/>
-        <img src="./aardbeien.jpg"/>
         <Card className="card" style={{maxWidth: 345}}>
           <CardMedia
             style={{height: 0, paddingTop: '56.25%'}}
             className="media"
-            image="./aardbeien.jpg"
+            image={window.location.origin + '/img/aardbeien.jpg'}
             title="no image available"
           />
           <CardContent>
